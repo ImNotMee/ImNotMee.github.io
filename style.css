@@ -259,7 +259,8 @@ h2 {
 #copyright {
     margin-left: 1250px;
     margin-right: 0px;
-    position: inherit;
+    font-family: sans-serif;
+    position: relative;
     
 }
 
