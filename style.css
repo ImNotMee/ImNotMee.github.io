@@ -280,10 +280,12 @@ h2 {
     width: auto;
 }
 
-body {
-    background-color: #4e4848;
-}
+
 
 c {
     color: white;
+}
+
+#projects {
+    background-color: #4e4848;
 }
