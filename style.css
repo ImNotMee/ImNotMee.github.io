@@ -267,6 +267,6 @@ p {
 #copyright {
     margin-left: 1250px;
     margin-right: 0px;
-    position: inherit;
+    position: static;
     
 }
