@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: inherit;
+    font-size: 18px;
+}
+
+h1 , h2 {
+    color: #8d8de2;
+    font-family:sans-serif, inherit;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    
+}
+.main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.aye-Lmao {
+    font-size: 30px;
+}
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /*margin: top right bottom left;
+        Same as line 47 -49 */
+    margin: 20px auto 0 auto;
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.aye {
+    padding-top: 20px;
+    /* a line at the bottom of the website. */
+    border-top: 1px solid #666;
+}
+
+.other {
+    float: left;
+    width: 25%;
+}
+
+.oth {
+    margin-bottom: 30px;
+}
+
+.aye img {
+    height: 150px;
+    width: 300px;
+    /*    border-radius:  50% for circle image*/
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
