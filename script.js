@@ -5,12 +5,13 @@
     var id = setInterval(frame, 64);
     
     function frame() {
-        if (loading == 100) {
+        if (loading == 60) {
             clearInterval(id);
-            window.open("welcome.html", "self");
+            window.location.replace("welcome.html");
         } else {
             loading = loading +1;
-            if (loading == 90) {
+            if (loading == 50) {
+                document.getElementById("welc").innerHTML = "WELCOME!";
                 preload.style.animation = "fadeout 1s ease";
             }
         }
@@ -44,3 +45,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+    
