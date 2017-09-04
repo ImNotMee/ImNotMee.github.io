@@ -7,7 +7,7 @@
     function frame() {
         if (loading == 30) {
             clearInterval(id);
-            window.location.replace("index.html");
+            window.location.replace("main.html");
         } else {
             loading = loading +1;
             if (loading == 20) {

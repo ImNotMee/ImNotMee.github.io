@@ -26,5 +26,5 @@ function showSlides(n) {
 }
 
 function back() {
-    window.location.replace("index.html");
+    window.location.replace("main.html");
 }
