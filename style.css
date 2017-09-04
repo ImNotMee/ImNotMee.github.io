@@ -281,11 +281,34 @@ h2 {
 }
 
 
+#projects {
+    background-color: #4e4848;
+}
 
-c {
+#home {
+    position: fixed;
+    background-color: #9b8c8c;
+    right: 50px;
+    bottom: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#home:hover {
+    background-color: #4CAF50;
     color: white;
 }
 
-#projects {
-    background-color: #4e4848;
+#major {
+    font-size: 30px;
+    position: relative;
+}
+
+#specialize {
+    font-size: 22px;
 }

@@ -1,24 +1,3 @@
-(function() {
-    
-    var preload = document.getElementById("preload");
-    var loading = 0;
-    var id = setInterval(frame, 64);
-    
-    function frame() {
-        if (loading == 60) {
-            clearInterval(id);
-            window.location.replace("welcome.html");
-        } else {
-            loading = loading +1;
-            if (loading == 50) {
-                document.getElementById("welc").innerHTML = "WELCOME!";
-                preload.style.animation = "fadeout 1s ease";
-            }
-        }
-    } 
-})();
-
-// Project
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -45,4 +24,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-    
+
+function back() {
+    window.location.replace("index.html");
+}
