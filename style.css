@@ -104,6 +104,7 @@ h2 {
 }
 
 .logo {
+    position: relative;
     width: 300px;
     height: 70px;
     margin: 150px auto 50px auto;
