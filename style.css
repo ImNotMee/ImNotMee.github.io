@@ -53,57 +53,43 @@ b {
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
 }
 
 img {
+    left: 250px;
     padding: 50px;
-    height: 600px;
-    width: 450px;
-    display: block;
+    height: 510px;
+    width: 400px;
+    top: 150px;
 }
 
-h1, h2 {
+h1 {
     color: black;
     font-family: sans-serif;
-    font-size: 40px;
-    margin-left: 450px;
-    bottom: 430px;
-}
-
-h2 {
-    bottom: 450px;
-    font-size: 25px;
+    font-size: 30px;
+    width: 500px;
+    height: 30px;
+    left: 650px;
+    bottom: 300px;
 }
 
 .intro {
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 125px;
-    max-height: 700px;
-    margin-bottom: 125px;
-    background-color: rgba(255, 255, 255, 0.53);
+    height: auto;
+    width: auto;
+    /*border: 2px solid red;*/
 }
 
 #Maintext {
-    margin-left: 450px;
-    margin-right: 100px;
-    bottom: 450px;
     font-family: sans-serif;
     color: black;
-    display: block;
-}
-
-.first {
-    height: auto;
-    width: auto;
-}
-
-#major {
-    font-size: 30px;
-}
-
-#specialize {
-    font-size: 22px;
+    width: 50%;
+    bottom: 330px;
+    left: 650px;
 }
 
 /* Bottom Style */
@@ -113,8 +99,6 @@ h2 {
 }
 
 #copyright {
-    margin-left: 1250px;
-    margin-right: 0px;
+    float: right;
     font-family: sans-serif;
-    display: block;
 }
