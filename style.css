@@ -72,7 +72,6 @@ h1 {
     font-size: 30px;
     width: 500px;
     height: 30px;
-    bottom: 300px;
 }
 
 h1, #Maintext {
@@ -91,7 +90,7 @@ h1, #Maintext {
 
 #Maintext {
     width: 40%;
-    bottom: 330px;
+    bottom: 40px;
 }
 
 /* Bottom Style */
