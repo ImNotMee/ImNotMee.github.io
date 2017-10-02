@@ -63,7 +63,7 @@ b {
 img {
     left: 100px;
     padding: 50px;
-    height: 510px;
+    height: 500px;
     width: 400px;
     top: 150px;
 }
@@ -76,6 +76,7 @@ h1 {
 
 h1, #Maintext {
     left: 550px;
+    bottom: 350px;
     font-family: sans-serif;
     color: black;
 }
@@ -90,7 +91,6 @@ h1, #Maintext {
 
 #Maintext {
     width: 40%;
-    bottom: 40px;
 }
 
 /* Bottom Style */
