@@ -1,11 +1,12 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    position: relative;
 }
 
 /* Top bar styles */
 .topnav {
-    background-color: rgba(255, 255, 255, 0.53);
+    background-color: rgba(255, 225, 225, 0.15);
     overflow: hidden;
 }
 
@@ -13,7 +14,7 @@
     /*Puts the options to the right*/
     float: right;
     display: block;
-    color: #333;
+    color: rgb(156, 194, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +30,7 @@
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #eefa5e;
     color: white;
 }
 
@@ -37,69 +38,105 @@
     display: none;
 }
 
-b {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 35px;
-    font-family: sans-serif;
-}
-
 /* Body Style */
 .body {
-    background-image: url(images/d.jpg);
+    background-image: url(images/USo6P0c.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin: auto;
+    max-height: 1980px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin: 20px auto 0 auto;
 }
 
-img {
-    left: 100px;
-    padding: 50px;
-    height: 500px;
-    width: 400px;
-    top: 150px;
+#name {
+    width: 30%;
+    margin: 20px 0 0 20px;
+    
+}
+
+h1 ,h2, h3 {
+    color: white;
+}
+
+.context, #programminglang, #activites {
+    color: rgb(156, 194, 255);
 }
 
 h1 {
-    font-size: 30px;
-    width: 500px;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 120px;
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-top: 20px;
+    /*
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin: 20px auto 0 auto;*/
+}
+
+.info {
+    width: 75%;
+    float: left;
+    position: relative;
+    right: 40px;
+    background-color:rgba(100, 160, 162, 0.4);
+    z-index: -1;
+}
+
+.picture {
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(191, 171, 171, 0.58);
+    z-index: 0;
+    
+}
+
+h2 {
+    margin-left: 140px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.context {
+    margin-left: 160px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#github , #linkedin ,#youtube {
     height: 30px;
+    width: 30px;
 }
 
-h1, #Maintext {
-    left: 550px;
-    bottom: 350px;
-    font-family: sans-serif;
-    color: black;
+#act {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 160px;
+    padding: 10px;
+    font-size: 20px;
 }
 
-.intro {
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    background-color: rgba(255, 255, 255, 0.53);
-}
-
-#Maintext {
-    width: 40%;
-}
-
-/* Bottom Style */
-.bottom {
-    background-color: rgba(255, 255, 255, 0.53);
-    overflow: hidden;
-}
-
-#copyright {
-    float: right;
-    font-family: sans-serif;
+h3 {
+    text-align: left;
+    margin-bottom: 10px;
 }

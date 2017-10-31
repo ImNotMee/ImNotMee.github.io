@@ -3,37 +3,72 @@
 <head>
     <title>Philip's Website</title>
     <meta charset="utf-8">
+    <script src="JavaScript/main.js"></script>
     <link rel="stylesheet" type ="text/css" href= "style.css">
     <link rel="icon" href="icon.png">
 </head>
     
 <body class="body">
-    <!embed name="forfun" loop="true" hidden="true" src="Disfigure%20-%20Blank%20%5BNCS%20Release%5D.mp3">
     <div class="topnav" id="topnav">
-        <b>Philip Zhang</b>
-        <a href="https://github.com/Veracities" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/philip-zhang-3b7246127" target="_blank">LinkedIn</a>
+        <img src="images/name.png" id="name">
+        <a href= "https://github.com/Veracities" target="_blank">
+            <img src="images/github.png" id ="github" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/philip-zhang-3b7246127" target="_blank">
+            <img src="images/linkedin.png" id ="linkedin" alt="LinkedIn">
+        </a>
+        <a href="https://www.youtube.com/channel/UCBZC2u1Xl12IpMITeMt7UeA"  target="_blank">
+            <img src="images/youtube.png" id="youtube" alt="YouTube">
+        </a>
         <a href="projects.html" target="_self">Projects</a>
         <a onclick="openWin()">Important</a>
     </div>
         
-    <div class="intro">
-        <img src="images/picofme.jpg" alt="Insert Picture Here">
-        <h1>Computer Science Co-op Student</h1><br>
-        <p id ="Maintext">
-            <Strong>Specializing:<br></Strong> <br>Software Engineering <br><br>
-            <Strong>School:<br></Strong> <br>University of Toronto Scarborough <br><br>
-            <Strong>Email:<br></Strong> <br>philip.zhang@mail.utoronto.ca<br><br>
-            <Strong>Programming Languages:<br></Strong> <br>Java [3 years], Python [1 year], C# [1 month], JavaScript [1 month]<br><br>
-            <Strong>Hobbies:<br></Strong><br> Playing Piano, Swimming, Playing Basketball, Skiing, Ice Skating, Working out at the gym, Building side projects, Playing Games, Listening to Music
-        </p>
-    </div>
-    
-    <div class= "bottom">
-        <p id="copyright">Philip Zhang Copyright © 2017</p>
-    </div>
-    
-    <script src="JavaScript/main.js"></script>
-</body>
+    <div class="container">
+        <div class="picture">
+            <img height="350px" width="250px" src="/images/picofme.jpg" alt="Picture of Me">
+            
+            <h3>Programming Languages:</h3>
 
+            <ul id= "programminglang">
+                <li>Java 8 [3 years]</li>
+                <li>Python 3 [1 year]</li>
+                <li>HTML5 [4 months]</li>
+                <li>CSS3 [4 months]</li>
+                <li>JavaScript [2 months]</li>
+                <li>C# [1 month]</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h1>Computer Science Co-op Student</h1>
+            <h2>Specializing:</h2>
+            
+            <div class="context">
+                Software Engineering
+            </div>
+            
+            <h2>School:</h2>
+    
+            <div class="context">
+                University of Toronto Scarborough
+            </div>
+            
+            <h2>Email:</h2>
+  
+            <div class="context">
+                philip.zhang@mail.utoronto.ca
+            </div>
+            
+            <h2>Extracurricular Activites:</h2>
+            
+            <ul id= "activites">
+                <li id="act">Former Treasurer of Model United Nation club</li>
+                <li id="act">Former Customer Service Assistant at North York Harvest</li>
+                <li id="act">Former Sergeant at Royal Canadian Air Cadets</li>
+                <li id="act">Former member of various bands</li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>

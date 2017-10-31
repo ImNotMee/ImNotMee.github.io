@@ -5,14 +5,14 @@
     
     function frame() {
         // Load the main.html when it reach the time
-        if (loading == 30) {
+        if (loading == 60) {
             clearInterval(id);
             window.location.replace("main.html");
         } else {
             // Add one to loading
             loading = loading +1;
             // Cast the fade animation when it reaches the end of the loading time
-            if (loading == 20) {
+            if (loading == 70) {
                 preload.style.animation = "fadeout 1s ease";
             }
         }
