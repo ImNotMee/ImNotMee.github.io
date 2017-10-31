@@ -1,9 +1,9 @@
 #popup {
-    background-color: gray;
+    background-color: #2f2e2e;
 }
 
 p {
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: rgb(156, 194, 255);
 }
