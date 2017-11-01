@@ -77,6 +77,8 @@ li {
     font-size: 20px;
     margin-left: 25px;
     margin-bottom: 10px;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 .container {
@@ -138,5 +140,6 @@ h2 {
 
 h3 {
     text-align: left;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
