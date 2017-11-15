@@ -135,11 +135,11 @@ h2 {
 h3 {
     text-align: left;
     margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
 }
 
 .bottom {
-    background-color: white;
     position: relative;
-    float: left;
+    max-height: 20px;
 }
