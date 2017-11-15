@@ -83,12 +83,6 @@ li {
 
 .container {
     margin-top: 20px;
-    /*
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin: 20px auto 0 auto;*/
 }
 
 .info {
@@ -142,4 +136,10 @@ h3 {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.bottom {
+    background-color: white;
+    position: relative;
+    float: left;
 }
