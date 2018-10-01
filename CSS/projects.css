@@ -1,0 +1,87 @@
+#projects {
+    background-color: rgb(32, 32, 33);
+     max-height: 1980px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin: 20px auto 0 auto;
+}
+
+/* Top bar styles */
+.topnav {
+    background-color: rgba(255, 225, 225, 0.15);
+    overflow: hidden;
+}
+
+.topnav a {
+    /*Puts the options to the right*/
+    float: right;
+    display: block;
+    color: rgb(156, 194, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    /*Move the options in the center*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #eefa5e;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+#name {
+    width: 30%;
+    margin: 20px 0 0 20px;
+    
+}
+
+#github , #linkedin ,#youtube {
+    height: 30px;
+    width: 30px;
+}
+
+/* Body */
+#work {
+    color: rgb(196, 211, 235);
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+
+
+
+/* Footer */
+
+.bottom {
+    position: relative;
+    margin-top: 165px;
+    background-color: rgba(255, 225, 225, 0.15);
+    text-align: right;
+    max-height: 100px;
+}
+
+
+#text {
+    color:white;
+    margin-left: 70px;
+}
