@@ -1,18 +1,26 @@
-#projects {
+html {
+   transform: scale(1.0);
+   transform-origin: 0 0;
+}
+
+body {
     background-color: rgb(32, 32, 33);
-     max-height: 1980px;
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin: 20px auto 0 auto;
 }
 
 /* Top bar styles */
 .topnav {
     background-color: rgba(255, 225, 225, 0.15);
     overflow: hidden;
+    width: 100%;
 }
+
+.topleft {
+    display: block;
+    float: left;
+    font-size: 25px;
+    margin: 1% 0 1% 3%;
+}
+
 
 .topnav a {
     /*Puts the options to the right*/
@@ -20,12 +28,12 @@
     display: block;
     color: rgb(156, 194, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 1%;
     text-decoration: none;
     font-size: 25px;
     /*Move the options in the center*/
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .topnav a:hover {
@@ -45,44 +53,48 @@
 #name {
     width: 30%;
     margin: 20px 0 0 20px;
-
 }
 
-h1 {
-  margin-left: 30px;
-}
 
 #github , #linkedin ,#youtube {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 
 /* Body */
-#work {
-    color: rgb(196, 211, 235);
-}
-
-li {
-    text-align: left;
-    font-size: 20px;
-    margin-left: 25px;
-    margin-bottom: 10px;
-    list-style-type: none;
-    list-style-position: inside;
-}
-
-/* Footer */
 
 .bottom {
     position: relative;
-    margin-top: 35px;
     background-color: rgba(255, 225, 225, 0.15);
     text-align: right;
-    max-height: 100px;
 }
 
 #text {
     color:white;
-    margin-left: 70px;
-    margin-right: 25px;
+    text-indent: 5%;
 }
+
+h1 {
+    color: white;
+}
+
+h2, .text, a {
+ color: rgb(196, 211, 235);
+ margin-left: 2%;
+ margin-bottom: 1%;
+}
+
+.projects {
+    margin: 3% 7% 5% 7%;
+}
+
+#toplogo {
+    margin: 0;
+}
+
+#copyright {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(156, 194, 255);
+}
+

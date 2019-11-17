@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Philip's Homepage</title>
+    <title>Philip's Website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="JavaScript/main.js"></script>
@@ -18,8 +18,11 @@
 </head>
 
 <body class="body">
-    <div class="topnav" id="topnav">
-        <img src="images/name.png" id="name" href="main.html">
+    <div class="topnav">
+        <div class="topleft">
+            <h1 id="toplogo">Philip Zhang</h1>
+        </div>
+        <div class="topright">
         <a href= "https://github.com/ImNotMee" target="_blank">
             <img src="images/github.png" id ="github" alt="GitHub">
         </a>
@@ -32,71 +35,79 @@
         <a href="projects.html" target="_self">Projects</a>
         <a href="http://philipz.me" target="_self">Photography</a>
         <a href="main.html" target="_self">Home</a>
+        </div>
     </div>
 
     <div class="container">
-        <div class="picture">
-            <img height="350px" width="250px" src="/images/picofme.jpg" alt="Picture of Me">
-
-            <h3>Languages:</h3>
-
-            <ul id= "programminglang">
-                <li>Java</li>
-                <li>Python 3</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C</li>
-                <li>Bash</li>
-                <li>SQL</li>
-            </ul>
-            <h3>Frameworks & Libraries:</h3>
-            <ul id="programminglang">
-                <li>Node JS</li>
-                <li>Express JS</li>
-                <li>React Native</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
-            </ul>
+        <div class="left">
+                 <div class="item1">
+                     <img src="images/picofme.jpg" alt="" width="200" heigh="200" style="padding: 10%;">
+                </div>
+                
+                <div class="item2">
+                    <h3>Languages:</h3>
+                    <ul id="lst">
+                        <li id="lang">Python 3</li>
+                        <li id="lang">Java 8</li>
+                        <li id="lang">HTML/CSS</li>
+                        <li id="lang">JavaScript</li>
+                        <li id="lang">Ruby</li>
+                        <li id="lang">SQL</li>
+                        <li id="lang">Bash</li>
+                        <li id="lang">PowerShell</li>
+                    </ul>
+                </div>
+                
+                <div class="item3">
+                    <h3>Frameworks & Libraries:</h3>
+                    <ul id="lst">
+                        <li>Node.js</li>
+                        <li>React js</li>
+                        <li>Angular 5</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+                
+                <div class="item4">
+                    <h3>Other Stacks:</h3>
+                    <ul id="lst">
+                        <li>Git/SVN</li>
+                        <li>TeamCity/Travis CI</li>
+                        <li>Chef</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                    </ul>
+                </div>
         </div>
 
-        <div class="info">
-            <h1>Computer Science Co-op Student</h1>
-            <h2>Specializing:</h2>
-
-            <div class="context">
-                Software Engineering
-            </div>
-
-            <h2>School:</h2>
-
-            <div class="context">
-                University of Toronto Scarborough
-            </div>
-
-            <h2>Email:</h2>
-
-            <div class="context">
-                philip.zhang@mail.utoronto.ca
-            </div>
-            <h2>Certified Oracle Assoicate</h2>
-                <ul id= "activites">
-                    <li id="act">Java SE 8 Programmer(1Z0-808)</li>
+        <div class="right">
+            <div class="content">
+                <h2>A Brief Bio about me:</h2>
+                <p>A 4th year University of Toronto Computer Science student who is experienced with Software development. </p>
+                <p>Interested in working with cloud services. Expected to graduate around April 2021.</p>
+                <h2> My work experiences are:</h2>
+                <ul id="lst">
+                    <li>DevOps Intern at Oracle</li>
+                    <li>Technical Analyst at Toyota Canada Inc</li>
                 </ul>
-            <h2>Extracurricular Activites:</h2>
-            <ul id= "activites">
-                <li id="act">Developer at UT Blueprint</li>
-                <li id="act">Assistant Director at UTHKSC club</li>
-                <li id="act">Former Treasurer of Model United Nation club</li>
-                <li id="act">Former Customer Service Assistant at North York Harvest</li>
-                <li id="act">Former Sergeant at Royal Canadian Air Cadets</li>
-                <li id="act">Former member of various bands</li>
-            </ul>
+                <h2>Some of my extracurricular activites include:</h2>
+                <ul id="lst">
+                    <li>VP of Internal Relations at DSC@UTSC</li>
+                    <li>Assistant Director at UTHKSC club</li>
+                    <li>Former Software Developer at DSC@UTSC</li>
+                    <li>Former Treasurer of Model United Nation club</li>
+                    <li>Former Customer Service Assistant at North York Harvest</li>
+                    <li>Former Sergeant at Royal Canadian Air Cadets</li>
+                    <li>Former member of various bands</li>
+                </ul>
+            </div>
+        
         </div>
     </div>
 
     <div class="bottom">
-         <p id="copyright">Philip Zhang © 2018</p>
+         <p id="copyright">Philip Zhang © 2019</p>
     </div>
 </body>
 </html>
