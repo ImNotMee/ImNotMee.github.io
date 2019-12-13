@@ -11,29 +11,32 @@ body {
 .topnav {
     background-color: rgba(255, 225, 225, 0.15);
     overflow: hidden;
-    width: 100%;
+    box-sizing: border-box;
 }
 
 .topleft {
-    display: block;
     float: left;
-    font-size: 25px;
-    margin: 1% 0 1% 3%;
+    width: 30vw;
+    margin: 1% 0% 1% 3%;
 }
 
+
+
+.topright {
+  width: 65%;
+  float: left;
+}
 
 .topnav a {
     /*Puts the options to the right*/
     float: right;
-    display: block;
+    display:inline-grid;
     color: rgb(156, 194, 255);
     text-align: center;
-    padding: 1% 1%;
+    padding: 1vw;
+    margin: 1vw;
     text-decoration: none;
     font-size: 25px;
-    /*Move the options in the center*/
-    margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 .topnav a:hover {
@@ -44,10 +47,6 @@ body {
 .topnav a.active {
     background-color: #eefa5e;
     color: white;
-}
-
-.topnav .icon {
-    display: none;
 }
 
 #name {
@@ -71,11 +70,11 @@ body {
 
 #text {
     color:white;
-    text-indent: 5%;
+    margin-left: 3vw;
 }
 
 h1 {
-    color: white;
+    color: #6092e0;
 }
 
 h2, .text, a {
@@ -89,12 +88,19 @@ h2, .text, a {
 }
 
 #toplogo {
-    margin: 0;
+  margin:auto 1vw;
+  color: white;
+}
+
+.bottom {
+    display:block;
+    background-color: rgba(255, 225, 225, 0.15);
 }
 
 #copyright {
+    padding: 1vw;
     font-size: 15px;
     font-family: sans-serif;
     color: rgb(156, 194, 255);
+    text-align: right;
 }
-

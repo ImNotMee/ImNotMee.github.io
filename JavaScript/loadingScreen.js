@@ -2,7 +2,7 @@
     // the variable to keep track of how long the loading screen stays for
     var loading = 0;
     var id = setInterval(frame, 64);
-    
+
     function frame() {
         // Load the main.html when it reach the time
         if (loading == 36) {
@@ -16,5 +16,5 @@
                 preload.style.animation = "fadeout 1s ease";
             }
         }
-    } 
+    }
 })();
